@@ -94,6 +94,9 @@ BUILD_BROKEN_DUP_RULES := true
 # PHONY
 BUILD_BROKEN_PHONY_TARGETS := true
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_LEGACY_HW_DISK_ENCRYPTION := true
