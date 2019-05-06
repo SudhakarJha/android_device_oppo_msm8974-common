@@ -210,4 +210,7 @@
     <!-- Whether device needs to wait for Qualcomm MPCTL service to start
          before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
+
+    <!-- Misc -->
+    <bool name="config_buttonTextAllCaps">false</bool>
 </resources>
