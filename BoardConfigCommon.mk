@@ -144,9 +144,7 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Power
-TARGET_HAS_LEGACY_POWER_STATS := true
-TARGET_HAS_NO_WLAN_STATS := true
+# DT2W
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Properties
