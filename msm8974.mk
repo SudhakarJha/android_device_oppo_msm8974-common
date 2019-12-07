@@ -222,7 +222,8 @@ PRODUCT_PACKAGES += \
     init.qcom-common.rc \
     init.qcom.power.rc \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.safailnet.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
