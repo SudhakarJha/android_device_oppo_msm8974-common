@@ -1,0 +1,2 @@
+allow init hal_usb_hwservice:hwservice_manager { add };
+allow init hidl_base_hwservice:hwservice_manager { add };
