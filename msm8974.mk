@@ -14,6 +14,12 @@
 # limitations under the License.
 #
 
+# Call the proprietary setup
+$(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
+
+# Inherit from oppo-common
+# $(call inherit-product, device/oppo/common/common.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -261,8 +267,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	librecovery_updater_oppo
     
-# Call the proprietary setup
-$(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
-
-# Inherit from oppo-common
-# $(call inherit-product, device/oppo/common/common.mk)
